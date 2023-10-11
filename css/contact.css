@@ -1,0 +1,107 @@
+body{
+    color:#58355E;
+    font-family:Calibri, Arial, Helvetica, sans-serif;
+    font-size:18px;
+    line-height:1.6em;
+    margin:0;
+    padding:0;
+    background-color:#E5DADA;
+}
+
+.pic{
+    display:block;
+    margin:0;
+    padding:0;
+}
+
+#menu{
+	background-color:#58355E;
+	color:#E5DADA;
+}
+
+#menu ul{
+    padding:5px;
+    list-style:none;
+    text-align:center;
+}
+
+#menu li{
+    padding:15px;
+    display:inline;
+}
+
+#menu a{
+	color:#fff;
+	text-decoration: none;
+	font-size:18px;
+}
+
+#menu a:hover{
+    color:#BF5700;
+}
+
+.vse{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+#footer{
+    font-size:15px;
+    background:#A799B7;
+    text-align: center;
+    color:#E5DADA;
+    padding:5px;
+    margin-top:30px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    }
+
+.form-group textarea {
+    height: 150px;
+    }
+
+.form-group button {
+    background-color: #58355E;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #BF5700;
+}
